@@ -30,7 +30,7 @@ public class authorize {
         AccessTokenDto accessTokenDto = new AccessTokenDto();
         accessTokenDto.setCode(code);
         accessTokenDto.setState(state);
-        accessTokenDto.setRedirect_uri("redirectUrlg");
+        accessTokenDto.setRedirect_uri("redirectUrl");
         accessTokenDto.setClient_id("clientId");
         accessTokenDto.setClient_secret("clientSecret");
         String accessToken = githubprovider.getAccessToken(accessTokenDto);
